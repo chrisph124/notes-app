@@ -1,0 +1,19 @@
+@import "~src/variables";
+
+.note-list {
+  height: 100%;
+  background-color: $background-blue-dark;
+  border-radius: 10px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .list {
+    height: 92%;
+    overflow: auto;
+
+    .notes {
+      height: 100%;
+    }
+  }
+}
